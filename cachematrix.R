@@ -7,7 +7,7 @@ makeCacheMatrix <- function(x = matrix()) {
   sol <- NULL
   set <- function(y) {
     x <<- y
-    m <<- NULL
+    sol <<- NULL
   }
   get <- function() x
   setsolve <- function(solve) sol <<- solve
